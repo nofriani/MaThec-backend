@@ -6,4 +6,6 @@ COPY . /usr/src/backend-ma
 
 RUN npm install
 
+EXPOSE 8080
+
 CMD ["npm", "start"]
